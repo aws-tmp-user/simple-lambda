@@ -9,8 +9,6 @@ phases:
   install:
     runtime-versions:
       python: 3.12
-    commands:
-      - pip install -r src/requirements.txt
 
   build:
     commands:
